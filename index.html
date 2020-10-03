@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Projeto Teste</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+</head>
+
+<body>
+
+    <header>
+        <section id="topo"> 
+        <div id="topo" class="container">
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <nav class="nav container topo">
+                        <a class="nav-link active" href="#">Blog</a>
+                        <a class="nav-link" href="#">Vagas</a>
+                        <a class="nav-link" href="#">Institucional</a>
+                    </nav>
+                </div>
+                <div class="col-8 informacoes">
+                    <h2>São Paulo - <span>Sede (11) 0000- 0000</span></h2>
+                    <h2>outros estados - <span>Sede (11) 0000- 0000</span></h2>
+                    <h2>Whats - <span>Sede (11) 0000- 0000</span></h2>
+                    <h2>Área do aluno</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+        <div id="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light container">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo_trainning.png" width="170px">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Assinatura Full</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Formações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Certificações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Calendário</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Aluguel de Salas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Inscreva-se</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-sm">
+                        <h2>categoria: <span>sap/erp</span></h2>
+                    </div>
+                    <div class="col-sm">
+                        <img src="./img/SAP.png" width="90px" style="margin-bottom: 20px;">
+                    </div>
+                    <div class="col-sm">
+                        <h5>Até 12x sem juros</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="produto">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm turmas">
+                    <h1>Sap Wm warehouse maneger</h1>
+                    <div class="row justify-content-between">
+                        <div class="col-sm">
+                            <h2 class="presencial">Presencial</h2>
+                            <ul>
+                                <li>
+                                    <h3 style="font-size: 18px;"><span>de:</span> R$ 2.431,00</h3>
+                                </li>
+                                <li>
+                                    <h3 style="color: #2772d2;"><span>por: 12 x</span> R$ 101,29</h3>
+                                </li>
+                                <li>
+                                    <h3 style="color: #009f31; font-size: 18px;"><span>ou:</span> R$ 1.215,50 á vista
+                                    </h3>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm">
+                            <button type="button" class="info">Pedir Informações</button>
+                            <h2 class="desconto">Desconto de <span>40%</span></h2>
+                        </div>
+                    </div>
+                    <span>Proximas turmas no periodo:</span>
+                    <select name="select">
+                        <option value="valor1">Valor 1</option>
+                        <option value="valor2" selected>Noturno</option>
+                        <option value="valor3">Valor 3</option>
+                    </select>
+                    <div class="row">
+                        <div class="col-sm datas">
+                            <h4>29/06/2020</h4>
+
+                            <span>Noturno / sp</span>
+                        </div>
+                        <div class="col-sm datas">
+                            <h4>29/06/2020</h4>
+
+                            <span>Noturno / sp</span>
+                        </div>
+                        <div class="col-sm datas">
+                            <h4>29/06/2020</h4>
+
+                            <span>Noturno / sp</span>
+                        </div>
+                    </div>
+                    <h2 class="novidade">Últimas vagas: <span>para a prómixa turma </span> 29/06</h2>
+                    <button type="button" class='confirmar' style="background-color: #019e35;">
+                        Increva-se
+                    </button>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Coteúdo Programático
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Teste</a>
+                            <a class="dropdown-item" href="#">Teste</a>
+                            <a class="dropdown-item" href="#">Teste</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Informações Adcionais
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Teste</a>
+                            <a class="dropdown-item" href="#">Teste</a>
+                            <a class="dropdown-item" href="#">Teste</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm objetivo">
+                    <h3>Objetivo do curso</h3>
+                    <P>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor mollis libero in egestas.
+                        In
+                        hac habitasse platea dictumst. In hac habitasse platea dictumst.
+                    </P>
+
+                    <P>
+                        Nullam imperdiet, nisl id pretium porttitor, lacus ligula consectetur diam, sollicitudin
+                        venenatis
+                        magna orci quis sapien. Nam lectus magna
+                    </P>
+
+                    <P>
+                        Sap é uma marca registrada com todos os direitos reservados
+                    </P>
+                    <iframe max-width="500px" width="100%" height="290" src="https://www.youtube.com/embed/7PS0qq1Ybgg"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            pré-requisito
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Teste</a>
+                            <a class="dropdown-item" href="#">Teste</a>
+                            <a class="dropdown-item" href="#">Teste</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Material Didático
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Teste</a>
+                            <a class="dropdown-item" href="#">Teste</a>
+                            <a class="dropdown-item" href="#">Teste</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container calenda">
+        <div class="row">
+            <div class="col-sm-8 calendario">
+                <h1>Calendário</h1>
+                <nav class="nav container">
+                    <a class="nav-link" href="#">data inicio e final</a>
+                    <a class="nav-link" href="#">período</a>
+                    <a class="nav-link" href="#">tipo</a>
+                    <a class="nav-link" href="#">valor</a>
+                    <a class="nav-link" href="#">solicitações</a>
+                </nav>
+                <div class="info_calendario">
+                    <h2>turmas e formação, preencha o formulário e entraremos em contato</h2>
+                </div>
+            </div>
+            <div class="col formulario">
+                <h1>Peça mais informações</h1>
+                <input type="text" placeholder="Nome Completo">
+                <input type="number" placeholder="(00) 90000-0000">
+                <input type="text" placeholder="Sap wm rawhose meneger">
+                <select name="select">
+                    <option value="valor" selected>Local do curso</option>
+                    <option value="valor">Local do curso</option>
+                    <option value="valor">Local do curso</option>
+                    <option value="valor">Local do curso</option>
+                </select>
+                <button type="button">
+                    Enviar
+                </button>
+            </div>
+        </div>
+    </div>
+    <section id="informacao">
+        <div class="container">
+            <h2>Encontre esse curso <span>Mais barato</span></h2>
+            <p>Tenha uma formação complet e esteja preparado para o mercado de trabalho</p>
+            <div class="row">
+                <div class="col-sm">
+                    <img src="./img/img_01.png">
+                </div>
+                <div class="col-sm">
+                    <img src="./img/img_02.png">
+                </div>
+                <div class="col-sm">
+                    <img src="./img/img_03.png">
+                </div>
+                <div class="col-sm">
+                    <img src="./img/img_04.png">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="pacotes">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="titulo">
+                        <h1>Pacote<span> Full Access</span></h1>
+                        <h2>Cursos ilimitado ao vivo</h2>
+                    </div>
+                    <p style="font-weight: bold;">Todos os cursos e um único produto</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in orci velit. Nulla nisl
+                        risus, facilisis a dictum a, mollis sed tortor.
+                    </p>
+                    <P>
+                        In ultrices viverra mauris, vitae porta augue dictum a. Donec vel semper ipsum,
+                    </P>
+                    <div class="botoes">
+                        <button type="button">Assinar</button>
+                        <button type="button">Ver mais</button>
+                    </div>
+                </div>
+                <div class="col-sm icones">
+                    <img src="./img/java.png.png">
+                    <img src="./img/java.png.png">
+                    <img src="./img/java.png.png">
+                    <img src="./img/java.png.png">
+                    <img src="./img/java.png.png">
+                    <img src="./img/java.png.png">
+                    <img src="./img/java.png.png">
+                    <img src="./img/java.png.png">
+                    <img src="./img/java.png.png">
+                    <img src="./img/java.png.png">
+                    <img src="./img/java.png.png">
+                    <img src="./img/java.png.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="endereco">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col">
+                    <img src="./img/logo_trainning.png" class="logo">
+                </div>
+                <div class="col-md-auto">
+                    <h2>Endereço | Sede: <span> (11) 3171-2002 - Av. Paulista, 2006, 18 andar - Metrô Consolação</span>
+                    </h2>
+                    <h2>Demais Localidades: <span> (ddd) 4005-1580</span></h2>
+                </div>
+                <div class="col">
+                    <h2>Redes Sociais</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <ul>
+                            <li>
+                                <h2>Institucional</h2>
+                            </li>
+                            <li>
+                                <a href="#">Sobre a Trainning</a>
+                            </li>
+                            <li>
+                                <a href="#">Localização</a>
+                            </li>
+                            <li>
+                                <a href="#">Consultoria</a>
+                            </li>
+                            <li>
+                                <a href="#">Parceiros com Descontos</a>
+                            </li>
+                            <li>
+                                <a href="#">Seja Parceiro</a>
+                            </li>
+                            <li>
+                                <a href="#">Regras da Promoção</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <ul>
+                            <li>
+                                <h2>Curso</h2>
+                            </li>
+                            <li>
+                                <a href="#">SAP / ERP</a>
+                            </li>
+                            <li>
+                                <a href="#">Governança e Negócios</a>
+                            </li>
+                            <li>
+                                <a href="#">Gestão de Projetos</a>
+                            </li>
+                            <li>
+                                <a href="#">Segurança</a>
+                            </li>
+                            <li>
+                                <a href="#">Microsoft</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <ul>
+                            <li>
+                                <h2>Menu</h2>
+                            </li>
+                            <li>
+                                <a href="#">Exames</a>
+                            </li>
+                            <li>
+                                <a href="#">Simulação de exames</a>
+                            </li>
+                            <li>
+                                <a href="#">Online Ao Vivo</a>
+                            </li>
+                            <li>
+                                <a href="#">Caledário</a>
+                            </li>
+                            <li>
+                                <a href="#">curso do mês</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <h2>Formas de pagamento</h2>
+                        <p>Parcele em até 12X no cartão de crédito. No Boleto, á vista, com 3% de desconto</p>
+                        <img src="./img/meios_pagamento.png" max-width="300px" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_legal">
+            <p>copyrigth 2020. todos direitos reservado a <span>tranning</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
